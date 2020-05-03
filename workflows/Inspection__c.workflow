@@ -6,7 +6,7 @@
         <description>Follow-Up Inspection</description>
         <protected>false</protected>
         <recipients>
-            <recipient>joeschmoe.rpcvxzxqm9iw.6thtmjewqemj@example.com</recipient>
+            <recipient>karthik.gumadi-qzys@force.com</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>

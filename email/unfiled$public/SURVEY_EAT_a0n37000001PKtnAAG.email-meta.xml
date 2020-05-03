@@ -6,7 +6,7 @@
     <name>[Send using Workflow] Dreamforce</name>
     <style>none</style>
     <subject>Please complete this survey: Dreamforce</subject>
-    <textOnly>Please complete this survey at:&lt;br/&gt;{!IF(Contact.Id != null,IF(Case.Id != null,&apos;https://timbasurveys.na31.visual.force.com/apex/timbasurveys__survey?id=a0n4R00000mnY3tAAG&amp;cId=&apos;+Contact.Id+&apos;&amp;case_id=&apos;+Case.Id+&apos;&amp;wf=yes&apos;,&apos;https://timbasurveys.na31.visual.force.com/apex/timbasurveys__survey?id=a0n4R00000mnY3tAAG&amp;cId=&apos;+Contact.Id+&apos;&amp;wf=yes&apos;),&apos;&apos;)}</textOnly>
+    <textOnly>Please complete this survey at:&lt;br/&gt;{!IF(Contact.Id != null,IF(Case.Id != null,&apos;https://timbasurveys.na31.visual.force.com/apex/timbasurveys__survey?id=a0n4R00000pCJMmAAG&amp;cId=&apos;+Contact.Id+&apos;&amp;case_id=&apos;+Case.Id+&apos;&amp;wf=yes&apos;,&apos;https://timbasurveys.na31.visual.force.com/apex/timbasurveys__survey?id=a0n4R00000pCJMmAAG&amp;cId=&apos;+Contact.Id+&apos;&amp;wf=yes&apos;),&apos;&apos;)}</textOnly>
     <type>custom</type>
     <uiType>Aloha</uiType>
 </EmailTemplate>

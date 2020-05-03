@@ -6,7 +6,7 @@
     <name>[Send using Workflow Camp] Dreamforce</name>
     <style>none</style>
     <subject>Please complete this survey: Dreamforce</subject>
-    <textOnly>Please complete this survey at:&lt;br/&gt;{!IF(CampaignMember.ContactId != null,&apos;https://timbasurveys.na31.visual.force.com/apex/timbasurveys__survey?id=a0n4R00000mnY3tAAG&amp;cId=&apos;+CampaignMember.ContactId+&apos;&amp;wf=yes&apos;,&apos;https://timbasurveys.na31.visual.force.com/apex/timbasurveys__survey?id=a0n4R00000mnY3tAAG&amp;lId=&apos;+CampaignMember.LeadId+&apos;&amp;wf=yes&apos;)}</textOnly>
+    <textOnly>Please complete this survey at:&lt;br/&gt;{!IF(CampaignMember.ContactId != null,&apos;https://timbasurveys.na31.visual.force.com/apex/timbasurveys__survey?id=a0n4R00000pCJMmAAG&amp;cId=&apos;+CampaignMember.ContactId+&apos;&amp;wf=yes&apos;,&apos;https://timbasurveys.na31.visual.force.com/apex/timbasurveys__survey?id=a0n4R00000pCJMmAAG&amp;lId=&apos;+CampaignMember.LeadId+&apos;&amp;wf=yes&apos;)}</textOnly>
     <type>custom</type>
     <uiType>Aloha</uiType>
 </EmailTemplate>
